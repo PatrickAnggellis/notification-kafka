@@ -6,8 +6,10 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 @Entity
 public class Usuario {
 
@@ -17,7 +19,4 @@ public class Usuario {
     private String nome;
     private String email;
     private String preferencia;
-
-
-    
 }
